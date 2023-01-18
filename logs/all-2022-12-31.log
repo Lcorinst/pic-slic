@@ -1,0 +1,57 @@
+[2022-12-31 15:11:15,747] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 15:11:57,921] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view wxcloudrun.imgProcess.test_upload didn't return an HttpResponse object. It returned None instead.
+[2022-12-31 15:11:57,921] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 67971
+[2022-12-31 15:13:18,668] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 15:13:19,237] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 15:13:49,582] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 7
+[2022-12-31 15:16:25,077] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 7
+[2022-12-31 15:19:25,233] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 15:19:25,818] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 15:20:09,156] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 15:20:09,769] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 15:21:43,690] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 15:21:44,294] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 15:28:45,714] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 15:28:46,287] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 15:33:02,764] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 15:33:03,368] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 15:33:23,761] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 7
+[2022-12-31 15:42:28,036] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 15:42:28,617] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 15:45:22,643] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 15:45:23,249] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 15:56:02,622] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 15:56:03,250] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 15:59:19,891] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 15:59:20,499] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 15:59:54,436] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 859012
+[2022-12-31 16:00:20,619] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 16:00:21,198] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 16:00:23,935] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py", line 230, in test_upload
+    img_base64 = test_pro(imgs)
+  File "F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py", line 216, in test_pro
+    img.shou()
+  File "D:\DevTool\Python\Python310\lib\site-packages\PIL\Image.py", line 517, in __getattr__
+    raise AttributeError(name)
+AttributeError: shou
+[2022-12-31 16:00:23,937] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 87847
+[2022-12-31 16:00:33,997] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-31 16:00:34,578] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-31 16:00:39,378] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 859012
+[2022-12-31 16:21:05,308] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 789096
+[2022-12-31 16:22:16,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 945428
+[2022-12-31 16:22:45,636] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 945424

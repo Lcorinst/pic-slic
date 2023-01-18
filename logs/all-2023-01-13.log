@@ -1,0 +1,224 @@
+[2023-01-13 04:51:12,184] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:53:04,930] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:54:12,555] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2023-01-13 04:54:12,556] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2188
+[2023-01-13 04:54:12,777] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-01-13 04:54:12,778] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2239
+[2023-01-13 04:54:27,232] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 250, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 224, in test_pro
+    fileObject = mage2byte(img)
+NameError: name 'mage2byte' is not defined
+[2023-01-13 04:54:27,237] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 72076
+[2023-01-13 04:55:00,984] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-13 04:55:01,903] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:55:13,274] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 250, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 224, in test_pro
+    fileObject = image2byte(img)
+  File "/app/wxcloudrun/imgProcess.py", line 197, in image2byte
+    return image_bytes
+NameError: name 'image_bytes' is not defined
+[2023-01-13 04:55:13,279] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 75989
+[2023-01-13 04:55:52,472] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:56:04,034] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 250, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 225, in test_pro
+    fileLoad.UpLoad(fileObject,'userid')
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 59, in UpLoad
+    m = MultipartEncoder(
+  File "/root/.local/lib/python3.8/site-packages/requests_toolbelt/multipart/encoder.py", line 125, in __init__
+    self._prepare_parts()
+  File "/root/.local/lib/python3.8/site-packages/requests_toolbelt/multipart/encoder.py", line 246, in _prepare_parts
+    self.parts = [Part.from_field(f, enc) for f in self._iter_fields()]
+  File "/root/.local/lib/python3.8/site-packages/requests_toolbelt/multipart/encoder.py", line 246, in <listcomp>
+    self.parts = [Part.from_field(f, enc) for f in self._iter_fields()]
+  File "/root/.local/lib/python3.8/site-packages/requests_toolbelt/multipart/encoder.py", line 494, in from_field
+    body = coerce_data(field.data, encoding)
+  File "/root/.local/lib/python3.8/site-packages/requests_toolbelt/multipart/encoder.py", line 472, in coerce_data
+    return CustomBytesIO(data, encoding)
+  File "/root/.local/lib/python3.8/site-packages/requests_toolbelt/multipart/encoder.py", line 535, in __init__
+    buffer = encode_with(buffer, encoding)
+  File "/root/.local/lib/python3.8/site-packages/requests_toolbelt/multipart/encoder.py", line 416, in encode_with
+    return string.encode(encoding)
+AttributeError: 'tuple' object has no attribute 'encode'
+[2023-01-13 04:56:04,043] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 111233
+[2023-01-13 04:56:46,691] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 04:56:47,137] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:56:49,425] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:57:41,308] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 04:57:41,781] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:57:43,867] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:57:52,859] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 250, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 225, in test_pro
+    fileLoad.UpLoad(fileObject,'userid')
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 58, in UpLoad
+    print(type(UpFile))
+NameError: name 'UpFile' is not defined
+[2023-01-13 04:57:52,867] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 78357
+[2023-01-13 04:58:04,268] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 04:58:04,762] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:58:07,554] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:58:14,828] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-13 04:58:52,467] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 04:58:53,427] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:59:50,503] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 04:59:51,011] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 04:59:53,319] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:00:02,035] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-13 05:06:40,485] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 05:06:40,927] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:06:41,998] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:07:03,794] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 250, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 225, in test_pro
+    fileLoad.UpLoad(fileObject,'userid')
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 65, in UpLoad
+    'file':  ('1.png', open(UpFileObject, 'rb'), 'image/png')
+TypeError: expected str, bytes or os.PathLike object, not _io.BytesIO
+[2023-01-13 05:07:03,803] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 78556
+[2023-01-13 05:08:05,068] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-13 05:08:05,590] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:08:07,104] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:08:25,042] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 05:08:25,491] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:08:26,958] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:08:46,114] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 250, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 225, in test_pro
+    fileLoad.UpLoad(fileObject,'userid')
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 65, in UpLoad
+    'file':  ('1.png', open(UpFileObject, 'rb'), 'image/png')
+ValueError: embedded null byte
+[2023-01-13 05:08:46,140] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 87820
+[2023-01-13 05:12:38,844] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 05:12:39,330] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:12:41,556] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:12:48,921] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 250, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 225, in test_pro
+    fileLoad.UpLoad(fileObject,'userid')
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 65, in UpLoad
+    'file':  ('1.png', open(UpFileObject, 'rb'), 'image/png')
+ValueError: embedded null byte
+[2023-01-13 05:12:48,930] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 88233
+[2023-01-13 05:32:39,963] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-13 05:32:40,482] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:32:42,471] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:33:06,615] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 05:33:07,742] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:33:22,528] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 250, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 225, in test_pro
+    fileLoad.UpLoad(fileObject,'userid')
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 58, in UpLoad
+    print(type(UpFileObject),len(UpFileObject))
+TypeError: object of type '_io.BytesIO' has no len()
+[2023-01-13 05:33:22,536] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 78404
+[2023-01-13 05:33:45,580] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 05:33:46,052] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:33:47,344] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:33:56,540] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-13 05:43:40,861] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 05:43:41,305] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:43:44,024] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:43:54,675] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-13 05:46:39,629] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 05:46:40,079] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:46:41,417] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 05:46:52,037] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-13 06:04:39,276] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-13 10:06:00,162] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 10:10:46,735] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-13 10:11:11,639] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 10:11:18,106] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-13 10:21:11,477] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-13 10:21:11,932] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 10:21:14,688] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 10:21:53,883] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-13 10:26:29,402] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-13 10:32:18,895] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-13 13:39:57,873] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 13:43:59,483] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 13:51:27,556] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 13:51:43,792] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/test
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/test.py", line 16, in cos_test
+    respon = cos.client.list_buckets()
+  File "/root/.local/lib/python3.8/site-packages/qcloud_cos/cos_client.py", line 3360, in list_buckets
+    rt = self.send_request(
+  File "/root/.local/lib/python3.8/site-packages/qcloud_cos/cos_client.py", line 396, in send_request
+    raise CosServiceError(method, msg, res.status_code)
+qcloud_cos.cos_exception.CosServiceError: {'code': 'AccessDenied', 'message': 'Access Denied.', 'resource': 'service.cos.myqcloud.com', 'requestid': 'NjNjMTYxZWZfNTViMjM1MGFfM2Y1Y184OTAxZTUw', 'traceid': 'OGVmYzZiMmQzYjA2OWNhODk0NTRkMTBiOWVmMDAxODczNTBmNjMwZmQ0MTZkMjg0NjlkNTYyNmY4ZTRkZTk0NzAyMWIzNDJjY2Y0MTI4NWQyZTNjZjk5YzE1OGRhMDZkMDczMjlmZDI2YzQzOTdmNzViMWU2NmRiOTU0ZTc4Mzg='}
+[2023-01-13 13:51:43,808] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/test HTTP/1.1" 500 73707
+[2023-01-13 13:54:49,632] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/test.py changed, reloading.
+[2023-01-13 13:54:50,098] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 13:54:52,493] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 13:54:54,476] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-13 13:55:07,575] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/test
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/test.py", line 16, in cos_test
+    respon = client.list_buckets()
+  File "/root/.local/lib/python3.8/site-packages/qcloud_cos/cos_client.py", line 3360, in list_buckets
+    rt = self.send_request(
+  File "/root/.local/lib/python3.8/site-packages/qcloud_cos/cos_client.py", line 396, in send_request
+    raise CosServiceError(method, msg, res.status_code)
+qcloud_cos.cos_exception.CosServiceError: {'code': 'AccessDenied', 'message': 'Access Denied.', 'resource': 'service.cos.myqcloud.com', 'requestid': 'NjNjMTYyYmJfOGFiMjM1MGFfNDZlNF82ODUwNTcy', 'traceid': 'OGVmYzZiMmQzYjA2OWNhODk0NTRkMTBiOWVmMDAxODczNTBmNjMwZmQ0MTZkMjg0NjlkNTYyNmY4ZTRkZTk0NzAyMWIzNDJjY2Y0MTI4NWQyZTNjZjk5YzE1OGRhMDZkMDczMjlmZDI2YzQzOTdmNzViMWU2NmRiOTU0ZTc4Mzg='}
+[2023-01-13 13:55:07,585] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/test HTTP/1.1" 500 73928

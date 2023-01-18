@@ -1,0 +1,362 @@
+[2023-01-12 07:47:23,957] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 07:49:21,461] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 07:53:37,726] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 07:53:38,183] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 07:53:39,817] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 07:53:56,028] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 07:58:41,186] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 07:58:41,661] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 07:58:42,966] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 07:58:57,900] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 07:59:30,932] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 07:59:32,101] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 07:59:42,111] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 08:00:42,691] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:00:43,175] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:00:44,407] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:00:53,013] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 08:01:59,142] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:01:59,581] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:02:02,844] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:02:09,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 08:03:04,193] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:03:04,712] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:03:05,983] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:03:13,386] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 08:05:10,232] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:05:10,670] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:05:12,296] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:05:48,503] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 08:10:08,372] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:10:08,914] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:10:10,152] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:10:23,843] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 08:12:50,393] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:12:51,664] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:13:04,340] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 08:14:00,181] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:14:00,638] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:14:03,761] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:14:11,325] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 08:17:41,632] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:17:42,121] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:17:43,010] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:18:01,748] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:18:02,190] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:18:04,434] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:18:10,283] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 11, in DownLoad
+    reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 38, in reSend
+    for Downdfile in res.file_list:
+AttributeError: 'Response' object has no attribute 'file_list'
+[2023-01-12 08:18:10,288] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 64014
+[2023-01-12 08:20:06,089] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:20:15,352] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 11, in DownLoad
+    reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 39, in reSend
+    for Downdfile in res.file_list:
+AttributeError: 'Response' object has no attribute 'file_list'
+[2023-01-12 08:20:15,357] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 64018
+[2023-01-12 08:20:33,913] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:20:43,081] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 11, in DownLoad
+    reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 39, in reSend
+    for Downdfile in res.text.file_list:
+AttributeError: 'str' object has no attribute 'file_list'
+[2023-01-12 08:20:43,086] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 64008
+[2023-01-12 08:21:19,909] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:21:20,440] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:21:22,192] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:21:31,857] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 11, in DownLoad
+    reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 39, in reSend
+    for Downdfile in res.text.file_list:
+AttributeError: 'str' object has no attribute 'file_list'
+[2023-01-12 08:21:31,862] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 66823
+[2023-01-12 08:22:08,673] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 11, in DownLoad
+    reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 39, in reSend
+    for Downdfile in res.text.file_list:
+AttributeError: 'str' object has no attribute 'file_list'
+[2023-01-12 08:22:08,676] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 64003
+[2023-01-12 08:25:45,570] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:25:46,746] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:25:55,075] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 11, in DownLoad
+    reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 40, in reSend
+    for Downdfile in data.file_list:
+AttributeError: 'function' object has no attribute 'file_list'
+[2023-01-12 08:25:55,080] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 64268
+[2023-01-12 08:26:13,203] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:26:13,720] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:26:14,872] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:26:23,723] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 11, in DownLoad
+    reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 40, in reSend
+    for Downdfile in data.file_list:
+AttributeError: 'dict' object has no attribute 'file_list'
+[2023-01-12 08:26:23,730] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 65034
+[2023-01-12 08:27:00,601] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:27:10,527] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 08:28:04,999] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:28:05,478] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:28:07,035] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:28:10,195] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 08:29:34,145] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:29:34,633] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:29:36,592] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:29:42,569] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 11, in DownLoad
+    reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 43, in reSend
+    urls.append(Downdfile.download_url)
+AttributeError: 'dict' object has no attribute 'download_url'
+[2023-01-12 08:29:42,575] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 65341
+[2023-01-12 08:30:15,515] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:31:49,093] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 08:31:49,532] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:31:52,363] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:31:58,300] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 08:54:55,324] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-12 08:54:55,807] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 08:54:57,658] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:19:35,490] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 09:19:35,952] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:19:37,272] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:41:36,967] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:42:25,715] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 14, in DownLoad
+    Downurls = reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 54, in reSend
+    for Downdfile in data['file_list']:
+KeyError: 'file_list'
+[2023-01-12 09:42:25,722] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 64502
+[2023-01-12 09:48:06,135] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:48:25,191] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-12 09:52:16,127] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/urls.py changed, reloading.
+[2023-01-12 09:52:16,671] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:52:17,684] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:53:08,546] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:53:51,181] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 09:53:51,649] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:53:53,214] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:57:51,523] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-12 09:57:51,977] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:57:52,959] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 09:58:28,042] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-12 09:58:29,051] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:02:10,484] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 693788
+[2023-01-12 10:08:35,543] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-12 10:08:35,980] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:08:37,448] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:15:25,787] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-12 10:15:26,277] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:15:28,670] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:16:28,465] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:19:36,407] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-12 10:19:36,904] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:19:39,649] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:28:08,181] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:28:19,976] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-12 10:28:20,422] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:28:23,256] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:29:32,721] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 248, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 231, in test_pro
+    return img_base64
+NameError: name 'img_base64' is not defined
+[2023-01-12 10:29:32,727] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 72208
+[2023-01-12 10:31:47,528] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:32:46,724] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-12 10:32:47,189] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:32:49,158] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:32:53,391] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-12 10:36:26,308] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 10:36:26,775] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:36:27,876] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:36:43,858] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-12 10:37:25,204] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-12 10:37:26,170] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:37:38,706] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:37:52,012] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-12 10:42:36,237] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 10:42:36,693] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:42:38,766] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:42:54,747] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 248, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 223, in test_pro
+    fileLoad.UpLoad(path)
+TypeError: UpLoad() missing 1 required positional argument: 'userid'
+[2023-01-12 10:42:54,756] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 72509
+[2023-01-12 10:43:17,533] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-12 10:43:18,015] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:43:18,926] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:43:29,351] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-12 10:45:11,955] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 10:45:12,844] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 10:45:27,006] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-12 11:16:29,298] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:16:49,882] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3.8/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 241, in test_upload
+    img_Byte = fileLoad.DownLoad(request)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 14, in DownLoad
+    Downurls = reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 36, in reSend
+    res = requests.post('http://api.weixin.qq.com/tcb/batchdownloadfile',json=params)
+  File "/root/.local/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2023-01-12 11:16:49,892] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 188544
+[2023-01-12 11:17:45,208] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-12 11:25:18,739] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 11:25:19,208] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:25:22,513] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:28:19,805] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:28:49,161] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:35:17,152] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:40:07,191] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 11:40:08,331] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:40:33,156] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 11:40:33,582] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:40:36,181] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:42:08,289] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-12 11:42:08,797] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:42:11,076] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:42:24,920] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 11:42:25,386] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:42:26,550] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:42:53,980] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-12 11:46:43,833] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 11:46:44,326] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:46:45,685] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:46:52,073] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 11:46:52,551] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:46:55,063] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 11:47:11,839] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-12 11:59:32,320] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 12:01:13,325] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-12 12:02:16,869] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-12 12:02:17,332] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 12:02:20,076] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-12 12:02:33,088] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5

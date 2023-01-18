@@ -1,0 +1,97 @@
+[2023-01-11 01:47:30,906] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 01:48:22,490] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: DownLoad() missing 1 required positional argument: '_'
+[2023-01-11 01:48:22,500] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: DownLoad() missing 1 required positional argument: '_'
+[2023-01-11 01:48:22,501] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 65129
+[2023-01-11 01:48:22,502] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 65129
+[2023-01-11 01:50:51,528] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\urls.py changed, reloading.
+[2023-01-11 01:50:52,130] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 01:51:07,516] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/SendCloundFileId
+[2023-01-11 01:51:07,517] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /api/SendCloundFileId HTTP/1.1" 404 2393
+[2023-01-11 01:51:07,541] [log.py:224] [log:log_response] [WARNING]- Not Found: /api/SendCloundFileId
+[2023-01-11 01:51:07,541] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /api/SendCloundFileId HTTP/1.1" 404 2393
+[2023-01-11 01:51:53,597] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\urls.py changed, reloading.
+[2023-01-11 01:51:54,196] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 01:51:58,966] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 01:51:58,980] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 01:55:15,717] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 01:56:34,142] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\UpAndDownloadFile.py changed, reloading.
+[2023-01-11 01:56:34,743] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 01:57:19,562] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\UpAndDownloadFile.py changed, reloading.
+[2023-01-11 01:57:20,170] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 01:58:17,890] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 01:59:09,172] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:09:00,564] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:10:23,810] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:14:19,882] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:21:11,737] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:21:11,751] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:21:57,195] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:21:57,222] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:21:57,237] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:25:39,803] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:25:39,851] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:25:39,932] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:27:48,106] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\UpAndDownloadFile.py changed, reloading.
+[2023-01-11 02:27:48,692] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 02:28:05,434] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:28:05,489] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:28:05,834] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:31:05,651] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:31:05,959] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:31:05,962] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:31:44,713] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:31:44,883] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:31:44,900] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:33:25,567] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 02:33:58,951] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 16:17:50,801] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 16:18:06,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 16:21:42,601] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\UpAndDownloadFile.py changed, reloading.
+[2023-01-11 16:21:43,222] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 16:22:24,639] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 16:23:52,905] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\UpAndDownloadFile.py changed, reloading.
+[2023-01-11 16:23:53,501] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 16:23:59,868] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 16:24:51,820] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\UpAndDownloadFile.py changed, reloading.
+[2023-01-11 16:24:52,459] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 16:25:27,818] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/SendCloundFileId
+Traceback (most recent call last):
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\DevProject\master\pic-slic-master\wxcloudrun\UpAndDownloadFile.py", line 13, in DownLoad
+    res = requests.post('POST https://api.weixin.qq.com/tcb/batchdownloadfile',
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\requests\sessions.py", line 695, in send
+    adapter = self.get_adapter(url=request.url)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\requests\sessions.py", line 792, in get_adapter
+    raise InvalidSchema(f"No connection adapters were found for {url!r}")
+requests.exceptions.InvalidSchema: No connection adapters were found for 'POST https://api.weixin.qq.com/tcb/batchdownloadfile'
+[2023-01-11 16:25:27,819] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/SendCloundFileId HTTP/1.1" 500 95726
+[2023-01-11 16:26:52,625] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\UpAndDownloadFile.py changed, reloading.
+[2023-01-11 16:26:53,248] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 16:27:04,273] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 16:32:41,950] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 16:40:38,175] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 16:40:49,007] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\UpAndDownloadFile.py changed, reloading.
+[2023-01-11 16:40:49,598] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-11 16:41:15,063] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27
+[2023-01-11 16:54:39,508] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/SendCloundFileId HTTP/1.1" 200 27

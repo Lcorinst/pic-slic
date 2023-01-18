@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <h1>Image Gallery</h1>
+    <div id="image-container">
+     
+
+    </div>
+    <script>
+      const imageContainer = document.getElementById('image-container');
+      const xhr = new XMLHttpRequest();
+      const url = "http://127.0.0.1:8000/api/img"
+      xhr.onload = function() {
+          if (xhr.status === 200) {
+              // Success! Do something with the response
+              var changebase64 ="data:image/jpg;base64," + xhr.response.replace(/[\r\n]/g, "");
+              console.log(changebase64);
+              var image = new Image();
+  image.src = changebase64;
+  document.body.appendChild(image);
+              console.log("成功")
+              // console.log(xhr.response);
+          } else {
+              // Something went wrong
+              console.error(xhr.statusText);
+          }
+      };
+
+      xhr.onerror = function() {
+          // There was a connection error of some sort
+          console.error(xhr.statusText);
+      };
+
+      xhr.open('GET', url, true);
+      xhr.send();
+
+
+    </script>
+  </body>
+</html>

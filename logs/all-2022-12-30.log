@@ -1,0 +1,103 @@
+[2022-12-30 14:22:43,940] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 14:22:50,666] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93jj\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2022-12-30 14:22:50,666] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2022-12-30 14:22:50,668] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ªª\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2022-12-30 14:22:50,668] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2022-12-30 14:22:55,976] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93ZZ\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[2022-12-30 14:22:55,977] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2022-12-30 14:22:55,979] [basehttp.py:161] [basehttp:log_message] [INFO]- code 400, message Bad request version ('_ßã4Ñ')
+[2022-12-30 14:22:55,979] [basehttp.py:142] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[2022-12-30 14:23:35,090] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 10137
+[2022-12-30 14:23:43,612] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 10137
+[2022-12-30 14:34:37,871] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-30 14:34:38,513] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 14:34:44,993] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-30 14:34:45,568] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 14:34:50,265] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 10137
+[2022-12-30 14:37:56,012] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\urls.py changed, reloading.
+[2022-12-30 14:37:56,590] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 14:39:25,475] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\views.py changed, reloading.
+[2022-12-30 14:39:26,057] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 14:39:42,278] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2022-12-30 14:39:42,533] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/count
+Traceback (most recent call last):
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\DevProject\master\pic-slic-master\wxcloudrun\views.py", line 49, in counter
+    logger.info('response result: {}'.format(rsp.content.decode('utf-8')))
+AttributeError: 'int' object has no attribute 'content'
+[2022-12-30 14:39:42,534] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/count HTTP/1.1" 500 66951
+[2022-12-30 14:39:52,627] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/count
+Traceback (most recent call last):
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\DevProject\master\pic-slic-master\wxcloudrun\views.py", line 49, in counter
+    logger.info('response result: {}'.format(rsp.content.decode('utf-8')))
+AttributeError: 'int' object has no attribute 'content'
+[2022-12-30 14:39:52,628] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/count HTTP/1.1" 500 67165
+[2022-12-30 14:39:54,015] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/count
+Traceback (most recent call last):
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "F:\DevProject\master\pic-slic-master\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\DevProject\master\pic-slic-master\wxcloudrun\views.py", line 49, in counter
+    logger.info('response result: {}'.format(rsp.content.decode('utf-8')))
+AttributeError: 'int' object has no attribute 'content'
+[2022-12-30 14:39:54,016] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/count HTTP/1.1" 500 67165
+[2022-12-30 14:41:02,341] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\views.py changed, reloading.
+[2022-12-30 14:41:02,956] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 14:41:04,570] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2022-12-30 14:41:04,636] [views.py:51] [views:counter] [INFO]- response result: {"code": 0, "data": 10}
+[2022-12-30 14:41:04,637] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 23
+[2022-12-30 14:41:53,953] [views.py:51] [views:counter] [INFO]- response result: {"code": 0, "data": 10}
+[2022-12-30 14:41:53,953] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 23
+[2022-12-30 14:50:07,246] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 14:53:40,377] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 14:56:32,919] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\settings.py changed, reloading.
+[2022-12-30 14:56:33,484] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 14:56:42,602] [views.py:51] [views:counter] [INFO]- response result: {"code": 0, "data": 10}
+[2022-12-30 14:56:42,604] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 23
+[2022-12-30 14:57:07,162] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 10137
+[2022-12-30 14:57:51,444] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-30 14:57:52,055] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 14:58:07,755] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-30 14:58:08,359] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 14:58:55,693] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 10137
+[2022-12-30 14:59:53,085] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\urls.py changed, reloading.
+[2022-12-30 14:59:53,656] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 15:00:09,729] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 11059200
+[2022-12-30 15:06:27,391] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-30 15:06:28,009] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 15:06:36,412] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 11059200
+[2022-12-30 15:09:18,992] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 11059200
+[2022-12-30 15:11:58,664] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 11059200
+[2022-12-30 15:14:49,856] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-30 15:14:50,425] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 15:15:00,326] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 11059200
+[2022-12-30 15:20:23,251] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57939)
+
+[2022-12-30 15:21:20,227] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 11059200
+[2022-12-30 15:24:56,938] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-30 15:24:57,566] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 15:29:29,024] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-30 15:29:29,601] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 15:30:28,767] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-30 15:30:29,344] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 15:31:33,431] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-30 15:31:34,016] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 15:31:47,353] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 406284
+[2022-12-30 15:32:54,765] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- F:\DevProject\master\pic-slic-master\wxcloudrun\imgProcess.py changed, reloading.
+[2022-12-30 15:32:55,359] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-12-30 15:33:05,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 4136660
+[2022-12-30 15:44:17,341] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 4136660
+[2022-12-30 15:45:47,984] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 4136660
+[2022-12-30 15:46:41,904] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/img HTTP/1.1" 200 4136660

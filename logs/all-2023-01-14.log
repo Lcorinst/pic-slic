@@ -1,0 +1,214 @@
+[2023-01-14 08:03:15,989] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 08:18:28,332] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-14 08:18:28,779] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 08:18:30,360] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 08:19:40,175] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-14 08:19:40,608] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 08:19:43,291] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 08:21:18,031] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3.8/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 243, in test_upload
+    img_Byte = fileLoad.DownLoad(request)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 17, in DownLoad
+    Downurls = reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 39, in reSend
+    res = requests.post('http://api.weixin.qq.com/tcb/batchdownloadfile',json=params)
+  File "/root/.local/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2023-01-14 08:21:18,071] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 188545
+[2023-01-14 08:26:16,124] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-14 08:28:32,290] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 08:28:46,973] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-14 08:58:40,621] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-14 08:58:41,119] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 08:58:42,435] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 08:59:05,667] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-14 08:59:06,121] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 08:59:07,596] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 08:59:10,802] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 09:00:47,149] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3.8/site-packages/urllib3/util/retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3.8/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.8/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 243, in test_upload
+    img_Byte = fileLoad.DownLoad(request)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 17, in DownLoad
+    Downurls = reSend(UserUpfile)
+  File "/app/wxcloudrun/UpAndDownloadFile.py", line 39, in reSend
+    res = requests.post('http://api.weixin.qq.com/tcb/batchdownloadfile',json=params)
+  File "/root/.local/lib/python3.8/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/requests/adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2023-01-14 09:00:47,161] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 220606
+[2023-01-14 09:05:42,243] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 250, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 224, in test_pro
+    fileObject = image2byte(img)
+  File "/app/wxcloudrun/imgProcess.py", line 193, in image2byte
+    image.save(img_bytes, format="jpg")
+  File "/root/.local/lib/python3.8/site-packages/PIL/Image.py", line 2340, in save
+    save_handler = SAVE[format.upper()]
+KeyError: 'JPG'
+[2023-01-14 09:05:42,246] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 80910
+[2023-01-14 09:24:12,417] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/UpAndDownloadFile.py changed, reloading.
+[2023-01-14 09:24:12,888] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 09:24:15,667] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 09:24:27,624] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 250, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 224, in test_pro
+    fileObject = image2byte(img)
+  File "/app/wxcloudrun/imgProcess.py", line 193, in image2byte
+    image.save(img_bytes, format="jpg")
+  File "/root/.local/lib/python3.8/site-packages/PIL/Image.py", line 2340, in save
+    save_handler = SAVE[format.upper()]
+KeyError: 'JPG'
+[2023-01-14 09:24:27,630] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 81223
+[2023-01-14 09:25:19,116] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 09:25:42,429] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-14 09:30:09,680] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 09:30:25,080] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/img
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/imgProcess.py", line 250, in test_upload
+    img_base64 = test_pro(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 224, in test_pro
+    fileObject = image2byte(imgs)
+  File "/app/wxcloudrun/imgProcess.py", line 193, in image2byte
+    image.save(img_bytes, format="PNG")
+AttributeError: 'list' object has no attribute 'save'
+[2023-01-14 09:30:25,086] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /api/img HTTP/1.1" 500 75677
+[2023-01-14 09:31:47,520] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-14 09:31:47,989] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 09:31:50,887] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 09:31:57,437] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-14 09:32:38,572] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 09:32:58,947] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/img HTTP/1.1" 200 5
+[2023-01-14 09:34:22,610] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/imgProcess.py changed, reloading.
+[2023-01-14 09:34:23,076] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-01-14 09:34:24,207] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
